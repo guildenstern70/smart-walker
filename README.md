@@ -3,6 +3,10 @@
 This is a NextJS web app that allows you to explore a pixelated world. 
 You can walk around, interact with objects, and discover hidden secrets.
 
+You can play the game [here](https://smartwalker.netlify.app/).
+
+![alt text](smartwalker.jpg "Smart Walker")
+
 ## Setup
 
 In order to run this project, you need to have Node.js and npm installed on your machine.
