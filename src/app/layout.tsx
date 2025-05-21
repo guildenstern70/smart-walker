@@ -10,7 +10,6 @@
 import type { Metadata } from 'next';
 import { pressStart2P } from '@/config/fonts';
 import './globals.css';
-import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
   title: 'Smart Walker',
@@ -26,7 +25,6 @@ export default function RootLayout({
     <html lang="en" className="light">
       <body className={`${pressStart2P.variable} font-sans antialiased`}>
         {children}
-        <Toaster />
       </body>
     </html>
   );
