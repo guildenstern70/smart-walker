@@ -794,10 +794,6 @@ body {
   width: 2.75rem;
 }
 
-.w-12 {
-  width: 3rem;
-}
-
 .w-2 {
   width: .5rem;
 }
@@ -1057,10 +1053,6 @@ body {
   white-space: nowrap;
 }
 
-.rounded {
-  border-radius: .25rem;
-}
-
 .rounded-\[2px\] {
   border-radius: 2px;
 }
@@ -1192,10 +1184,6 @@ body {
 
 .bg-destructive {
   background-color: hsl(var(--destructive));
-}
-
-.bg-input {
-  background-color: hsl(var(--input));
 }
 
 .bg-muted {
@@ -1917,6 +1905,10 @@ body {
   --tw-ring-offset-color: hsl(var(--background));
 }
 
+.active\:bg-accent:active {
+  background-color: hsl(var(--accent));
+}
+
 .active\:bg-sidebar-accent:active {
   background-color: hsl(var(--sidebar-accent));
 }
@@ -2482,10 +2474,6 @@ body {
 
   .sm\:h-8 {
     height: 2rem;
-  }
-
-  .sm\:w-20 {
-    width: 5rem;
   }
 
   .sm\:w-8 {

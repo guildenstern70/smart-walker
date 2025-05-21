@@ -190,7 +190,7 @@ export default function PixelWalkerPage() {
 
   return (
       <div className="flex flex-col items-center justify-center min-h-screen bg-background p-4">
-        <h1 className="text-3xl text-primary mb-4">Pixel Walker</h1>
+        <h1 className="text-3xl text-primary mb-4">Smart Walker</h1>
         <div
             ref={gameAreaRef}
             tabIndex={0}
