@@ -29,7 +29,13 @@ module.exports = mod;
 
 var { g: global, __dirname } = __turbopack_context__;
 {
-/** @type {import('postcss-load-config').Config} */ __turbopack_context__.s({
+/*
+ * Smart Walker
+ *
+ * Copyright (c) 2025, Alessio Saltarin
+ * This software is licensed under BSD license - see LICENSE file.
+ *
+ */ /** @type {import('postcss-load-config').Config} */ __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
 const config = {

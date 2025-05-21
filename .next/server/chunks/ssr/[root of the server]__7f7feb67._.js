@@ -37,7 +37,13 @@ const __TURBOPACK__default__export__ = fontData;
 
 var { g: global, __dirname } = __turbopack_context__;
 {
-__turbopack_context__.s({});
+/*
+ * Smart Walker
+ *
+ * Copyright (c) 2025, Alessio Saltarin
+ * This software is licensed under BSD license - see LICENSE file.
+ *
+ */ __turbopack_context__.s({});
 ;
 ;
 }}),
@@ -103,7 +109,13 @@ __turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$c
 
 var { g: global, __dirname } = __turbopack_context__;
 {
-__turbopack_context__.s({
+/*
+ * Smart Walker
+ *
+ * Copyright (c) 2025, Alessio Saltarin
+ * This software is licensed under BSD license - see LICENSE file.
+ *
+ */ __turbopack_context__.s({
     "default": (()=>RootLayout),
     "metadata": (()=>metadata)
 });
@@ -116,7 +128,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$t
 ;
 ;
 const metadata = {
-    title: 'Pixel Walker',
+    title: 'Smart Walker',
     description: 'A 2D pixel art walking game.'
 };
 function RootLayout({ children }) {
@@ -129,18 +141,18 @@ function RootLayout({ children }) {
                 children,
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$toaster$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Toaster"], {}, void 0, false, {
                     fileName: "[project]/src/app/layout.tsx",
-                    lineNumber: 21,
+                    lineNumber: 29,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/layout.tsx",
-            lineNumber: 19,
+            lineNumber: 27,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/layout.tsx",
-        lineNumber: 18,
+        lineNumber: 26,
         columnNumber: 5
     }, this);
 }

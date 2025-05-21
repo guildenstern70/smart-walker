@@ -5,7 +5,13 @@
 
 var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
-__turbopack_context__.s({
+/*
+ * Smart Walker
+ *
+ * Copyright (c) 2025, Alessio Saltarin
+ * This software is licensed under BSD license - see LICENSE file.
+ *
+ */ __turbopack_context__.s({
     "reducer": (()=>reducer),
     "toast": (()=>toast),
     "useToast": (()=>useToast)
@@ -171,7 +177,13 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
-__turbopack_context__.s({
+/*
+ * Smart Walker
+ *
+ * Copyright (c) 2025, Alessio Saltarin
+ * This software is licensed under BSD license - see LICENSE file.
+ *
+ */ __turbopack_context__.s({
     "cn": (()=>cn)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/clsx/dist/clsx.mjs [app-client] (ecmascript)");
@@ -190,7 +202,13 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
-__turbopack_context__.s({
+/*
+ * Smart Walker
+ *
+ * Copyright (c) 2025, Alessio Saltarin
+ * This software is licensed under BSD license - see LICENSE file.
+ *
+ */ __turbopack_context__.s({
     "Toast": (()=>Toast),
     "ToastAction": (()=>ToastAction),
     "ToastClose": (()=>ToastClose),
@@ -219,7 +237,7 @@ const ToastViewport = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$proje
         ...props
     }, void 0, false, {
         fileName: "[project]/src/components/ui/toast.tsx",
-        lineNumber: 16,
+        lineNumber: 24,
         columnNumber: 3
     }, this));
 _c1 = ToastViewport;
@@ -244,7 +262,7 @@ const Toast = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$
         ...props
     }, void 0, false, {
         fileName: "[project]/src/components/ui/toast.tsx",
-        lineNumber: 49,
+        lineNumber: 57,
         columnNumber: 5
     }, this);
 });
@@ -256,7 +274,7 @@ const ToastAction = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project
         ...props
     }, void 0, false, {
         fileName: "[project]/src/components/ui/toast.tsx",
-        lineNumber: 62,
+        lineNumber: 70,
         columnNumber: 3
     }, this));
 _c5 = ToastAction;
@@ -270,12 +288,12 @@ const ToastClose = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$
             className: "h-4 w-4"
         }, void 0, false, {
             fileName: "[project]/src/components/ui/toast.tsx",
-            lineNumber: 86,
+            lineNumber: 94,
             columnNumber: 5
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/ui/toast.tsx",
-        lineNumber: 77,
+        lineNumber: 85,
         columnNumber: 3
     }, this));
 _c7 = ToastClose;
@@ -286,7 +304,7 @@ const ToastTitle = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$
         ...props
     }, void 0, false, {
         fileName: "[project]/src/components/ui/toast.tsx",
-        lineNumber: 95,
+        lineNumber: 103,
         columnNumber: 3
     }, this));
 _c9 = ToastTitle;
@@ -297,7 +315,7 @@ const ToastDescription = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$pr
         ...props
     }, void 0, false, {
         fileName: "[project]/src/components/ui/toast.tsx",
-        lineNumber: 107,
+        lineNumber: 115,
         columnNumber: 3
     }, this));
 _c11 = ToastDescription;
@@ -325,7 +343,13 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
-__turbopack_context__.s({
+/*
+ * Smart Walker
+ *
+ * Copyright (c) 2025, Alessio Saltarin
+ * This software is licensed under BSD license - see LICENSE file.
+ *
+ */ __turbopack_context__.s({
     "Toaster": (()=>Toaster)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
@@ -352,44 +376,44 @@ function Toaster() {
                                     children: title
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ui/toaster.tsx",
-                                    lineNumber: 22,
+                                    lineNumber: 30,
                                     columnNumber: 25
                                 }, this),
                                 description && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$toast$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ToastDescription"], {
                                     children: description
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ui/toaster.tsx",
-                                    lineNumber: 24,
+                                    lineNumber: 32,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/ui/toaster.tsx",
-                            lineNumber: 21,
+                            lineNumber: 29,
                             columnNumber: 13
                         }, this),
                         action,
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$toast$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ToastClose"], {}, void 0, false, {
                             fileName: "[project]/src/components/ui/toaster.tsx",
-                            lineNumber: 28,
+                            lineNumber: 36,
                             columnNumber: 13
                         }, this)
                     ]
                 }, id, true, {
                     fileName: "[project]/src/components/ui/toaster.tsx",
-                    lineNumber: 20,
+                    lineNumber: 28,
                     columnNumber: 11
                 }, this);
             }),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$toast$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ToastViewport"], {}, void 0, false, {
                 fileName: "[project]/src/components/ui/toaster.tsx",
-                lineNumber: 32,
+                lineNumber: 40,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/ui/toaster.tsx",
-        lineNumber: 17,
+        lineNumber: 25,
         columnNumber: 5
     }, this);
 }

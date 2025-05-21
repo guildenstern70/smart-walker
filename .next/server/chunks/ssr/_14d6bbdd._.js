@@ -5,7 +5,13 @@ module.exports = {
 
 var { g: global, __dirname } = __turbopack_context__;
 {
-__turbopack_context__.s({
+/*
+ * Smart Walker
+ *
+ * Copyright (c) 2025, Alessio Saltarin
+ * This software is licensed under BSD license - see LICENSE file.
+ *
+ */ __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
@@ -172,17 +178,17 @@ const PixelCharacter = ({ x, y, state, direction, pixelScale = 4 })=>{
                         }
                     }, `${rowIndex}-${colIndex}`, false, {
                         fileName: "[project]/src/components/game/PixelCharacter.tsx",
-                        lineNumber: 167,
+                        lineNumber: 175,
                         columnNumber: 13
                     }, this))
             }, rowIndex, false, {
                 fileName: "[project]/src/components/game/PixelCharacter.tsx",
-                lineNumber: 165,
+                lineNumber: 173,
                 columnNumber: 9
             }, this))
     }, void 0, false, {
         fileName: "[project]/src/components/game/PixelCharacter.tsx",
-        lineNumber: 163,
+        lineNumber: 171,
         columnNumber: 5
     }, this);
 };
@@ -193,7 +199,13 @@ const __TURBOPACK__default__export__ = PixelCharacter;
 
 var { g: global, __dirname } = __turbopack_context__;
 {
-__turbopack_context__.s({
+/*
+ * Smart Walker
+ *
+ * Copyright (c) 2025, Alessio Saltarin
+ * This software is licensed under BSD license - see LICENSE file.
+ *
+ */ __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
@@ -284,7 +296,7 @@ const ScrollingBackground = ({ scrollOffset, gameWidth, gameHeight, pixelScale =
                 }
             }, void 0, false, {
                 fileName: "[project]/src/components/game/ScrollingBackground.tsx",
-                lineNumber: 83,
+                lineNumber: 91,
                 columnNumber: 7
             }, this),
             clouds.map((cloud)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -301,7 +313,7 @@ const ScrollingBackground = ({ scrollOffset, gameWidth, gameHeight, pixelScale =
                     }
                 }, cloud.id, false, {
                     fileName: "[project]/src/components/game/ScrollingBackground.tsx",
-                    lineNumber: 99,
+                    lineNumber: 107,
                     columnNumber: 10
                 }, this)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -315,13 +327,13 @@ const ScrollingBackground = ({ scrollOffset, gameWidth, gameHeight, pixelScale =
                 }
             }, void 0, false, {
                 fileName: "[project]/src/components/game/ScrollingBackground.tsx",
-                lineNumber: 117,
+                lineNumber: 125,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/game/ScrollingBackground.tsx",
-        lineNumber: 72,
+        lineNumber: 80,
         columnNumber: 5
     }, this);
 };
@@ -332,7 +344,13 @@ const __TURBOPACK__default__export__ = ScrollingBackground;
 
 var { g: global, __dirname } = __turbopack_context__;
 {
-__turbopack_context__.s({
+/*
+ * Smart Walker
+ *
+ * Copyright (c) 2025, Alessio Saltarin
+ * This software is licensed under BSD license - see LICENSE file.
+ *
+ */ __turbopack_context__.s({
     "default": (()=>PixelWalkerPage)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
@@ -354,7 +372,7 @@ const PIXEL_SCALE = 4; // Each "pixel" in sprites is 4x4 real pixels
 const CHARACTER_SPEED_BASE = 0.75;
 const CHARACTER_SPEED = CHARACTER_SPEED_BASE * PIXEL_SCALE;
 const JUMP_FORCE_BASE = 10;
-const GRAVITY_BASE = 0.25;
+const GRAVITY_BASE = 0.30;
 const JUMP_FORCE = JUMP_FORCE_BASE * PIXEL_SCALE / 2;
 const GRAVITY = GRAVITY_BASE * PIXEL_SCALE / 2;
 const GROUND_Y = GAME_HEIGHT * 0.2;
@@ -501,10 +519,10 @@ function PixelWalkerPage() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                 className: "text-3xl text-primary mb-4",
-                children: "Pixel Walker"
+                children: "Smart Walker"
             }, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 181,
+                lineNumber: 189,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -516,7 +534,7 @@ function PixelWalkerPage() {
                     height: `${GAME_HEIGHT}px`,
                     outline: 'none'
                 },
-                "aria-label": "Pixel Walker game area",
+                "aria-label": "Smart Walker game area",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$game$2f$ScrollingBackground$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         scrollOffset: backgroundOffset,
@@ -525,7 +543,7 @@ function PixelWalkerPage() {
                         pixelScale: PIXEL_SCALE
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 193,
+                        lineNumber: 201,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$game$2f$PixelCharacter$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -536,13 +554,13 @@ function PixelWalkerPage() {
                         pixelScale: PIXEL_SCALE
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 199,
+                        lineNumber: 207,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 182,
+                lineNumber: 190,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -557,12 +575,12 @@ function PixelWalkerPage() {
                             "aria-hidden": "true"
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 214,
+                            lineNumber: 222,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 210,
+                        lineNumber: 218,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -573,12 +591,12 @@ function PixelWalkerPage() {
                             children: " "
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 221,
+                            lineNumber: 229,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 217,
+                        lineNumber: 225,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -589,24 +607,24 @@ function PixelWalkerPage() {
                             "aria-hidden": "true"
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 230,
+                            lineNumber: 238,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 226,
+                        lineNumber: 234,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 209,
+                lineNumber: 217,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/page.tsx",
-        lineNumber: 180,
+        lineNumber: 188,
         columnNumber: 5
     }, this);
 }

@@ -1,6 +1,6 @@
 
 /*
- * PIXEL WALKER
+ * Smart Walker
  *
  * Copyright (c) 2025, Alessio Saltarin
  * This software is licensed under BSD license - see LICENSE file.

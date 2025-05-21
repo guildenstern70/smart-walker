@@ -1,6 +1,6 @@
 
 /*
- * PIXEL WALKER
+ * Smart Walker
  *
  * Copyright (c) 2025, Alessio Saltarin
  * This software is licensed under BSD license - see LICENSE file.
@@ -23,7 +23,7 @@ const CHARACTER_SPEED_BASE = 0.75;
 const CHARACTER_SPEED = CHARACTER_SPEED_BASE * PIXEL_SCALE;
 
 const JUMP_FORCE_BASE = 10; 
-const GRAVITY_BASE = 0.25; 
+const GRAVITY_BASE = 0.30;
 
 const JUMP_FORCE = JUMP_FORCE_BASE * PIXEL_SCALE / 2;
 const GRAVITY = GRAVITY_BASE * PIXEL_SCALE / 2;
@@ -186,7 +186,7 @@ export default function PixelWalkerPage() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-background p-4">
-      <h1 className="text-3xl text-primary mb-4">Pixel Walker</h1>
+      <h1 className="text-3xl text-primary mb-4">Smart Walker</h1>
       <div 
         ref={gameAreaRef}
         tabIndex={0} 
@@ -196,7 +196,7 @@ export default function PixelWalkerPage() {
           height: `${GAME_HEIGHT}px`,
           outline: 'none', 
         }}
-        aria-label="Pixel Walker game area"
+        aria-label="Smart Walker game area"
       >
         <ScrollingBackground 
           scrollOffset={backgroundOffset} 

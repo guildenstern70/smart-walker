@@ -1,4 +1,4 @@
-# Pixel Walker
+# Smart Walker
 
 This is a NextJS web app that allows you to explore a pixelated world. 
 You can walk around, interact with objects, and discover hidden secrets.

@@ -1,6 +1,6 @@
 
 /*
- * PIXEL WALKER
+ * Smart Walker
  *
  * Copyright (c) 2025, Alessio Saltarin
  * This software is licensed under BSD license - see LICENSE file.
@@ -13,7 +13,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'Pixel Walker',
+  title: 'Smart Walker',
   description: 'A 2D pixel art walking game.',
 };
 
